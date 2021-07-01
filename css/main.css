@@ -29,5 +29,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-left: 40% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
