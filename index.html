@@ -12,21 +12,46 @@
     <div class="container">
         <h1 class="h1 text-center">Movies catalog</h1>
         <div class="box">
-            <div class="box__left">
+            <div class="box__left w-25">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label"></label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ave">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ave" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label"></label>
-                    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="5">
+                    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="5" required>
                 </div> 
-                <select class="form-select mb-3" aria-label="Default select example" >
+                <select class="form-select mb-3" aria-label="Default select example" required >
                     <option selected >All</option>
                     <option value="1">Infinity War</option>
                     <option value="2">The Avengers</option>
                     <option value="3">12 Years a Slave</option>
-                  </select>                               
+                </select>
+
+                <select class="form-select mb-3" aria-label="Default select example " required >
+                    <option selected >Rating (high to low)</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>  
+
+                <button class="btn btn-primary mb-3 w-100 " type="button">Search</button>
+                <div class="box__left-small">
+                    <h2 class="h2 text-center"> Bookmarked movies</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item"> <h3 class="h3 text-start">Avengers: Infinity War</h3>
+                        <button class="btn btn-danger">Remove</button>
+                        </li>
+                        <li class="list-group-item"> <h3 class="h3 text-start">The Avengers</h3>
+                        <button class="btn btn-danger">Remove</button>
+                        </li>
+                        <li class="list-group-item"> <h3 class="h3 text-start">12 Years a Slave</h3>
+                        <button class="btn btn-danger">Remove</button>
+                        </li>
+                    </ul>
+                </div>           
             </div>
         </div>
     </div>
