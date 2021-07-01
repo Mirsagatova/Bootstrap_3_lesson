@@ -1,0 +1,32 @@
+.list {
+    border: none;
+}
+
+.image__calendar {
+    width: 20px;
+    height: 20px;
+}
+
+.image__star {
+    width: 20px;
+    height: 20px;  
+}
+.btn-outline-info:hover {
+    color: white;
+}
+
+.main-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-item {
+    width: 45%;
+}
+
+.another-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
